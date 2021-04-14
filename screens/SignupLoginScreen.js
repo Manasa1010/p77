@@ -29,7 +29,7 @@ export default class SignupLoginScreen extends React.Component{
                 <TextInput
                 placeholder="Email"
                 keyboardType="email-address"
-                style={style.inputBox}
+                style={styles.inputBox}
                 onChangeText={
                     (text)=>{
                         this.setState({
